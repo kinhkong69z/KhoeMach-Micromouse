@@ -281,7 +281,7 @@ int main(int argc, char* argv[]) {
         } */
         bfs(maze, 8, 8);
         for(int i = 0; i < e; i++){
-            std::string st;
+            std::string st; 
             sprintf(str, "%d", north_wall[i].first);
             st = st + str;
             sprintf(str, "%d", north_wall[i].second);
